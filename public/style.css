@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Montserrat:wght@400;500;700&family=Roboto:wght@100;300;400&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0;
+    font-family:Montserrat, sans-serif;
+}
+
+body {
+    background-color: hsl(216, 12%, 8%);
+    max-height: 100vh;
+    overflow: hidden;
+}
+
+.father{
+    display: flex;
+    justify-content: center;
+    padding: 25vh;
+}
+
+.container{
+    display: flex;
+    align-items:flex-start;
+    flex-direction: column;
+    justify-content:center;
+    border-radius: 20px;
+    width: 50vh;
+    height: 50vh;
+    padding: 15px;
+    gap: 10px;
+    background-color: hsl(213, 19%, 18%);
+}
+
+.star{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(213, 16%, 23%);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.hate{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 10px;
+}
+
+.numbers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(213, 16%, 23%);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.numbers:hover{
+    background-color: hsl(217, 12%, 63%);
+    transition: 300ms;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: 500;
+}
+
+p{
+    color: hsl(216, 12%, 54%);
+    font-weight: 500;
+}
+
+.buttonSubmit{
+    margin-top: 15px;
+    background-color: rgb(255, 255, 255);
+    color: hsl(25, 97%, 53%);
+    width: 370px;
+    height: 40px;
+    border-radius: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+#numberOne{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+}
+
+
+
+
